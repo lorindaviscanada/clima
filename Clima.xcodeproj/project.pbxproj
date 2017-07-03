@@ -78,7 +78,6 @@
 				63E28AFA1B99C36D00FBF6E0 /* Model */,
 				63E28AFB1B99C37500FBF6E0 /* Controller */,
 				63E28AF31B99C36100FBF6E0 /* Images.xcassets */,
-				63E28AFE1B99C3B300FBF6E0 /* LaunchScreen.xib */,
 				63E28ACE1B99C32400FBF6E0 /* Supporting Files */,
 			);
 			path = Clima;
@@ -113,6 +112,7 @@
 		63E28AFD1B99C38100FBF6E0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				63E28AFE1B99C3B300FBF6E0 /* LaunchScreen.xib */,
 				63E28AF41B99C36100FBF6E0 /* Main.storyboard */,
 			);
 			name = View;

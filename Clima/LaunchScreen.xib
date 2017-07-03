@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,10 +14,32 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash" translatesAutoresizingMaskIntoConstraints="NO" id="Ptw-Do-Nhf">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LMD Software  ©2017" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AU3-HU-UDC">
+                    <rect key="frame" x="110.5" y="193" width="259" height="95.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
             <color key="backgroundColor" red="0.16847139596939087" green="0.51802176237106323" blue="0.82454192638397217" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Ptw-Do-Nhf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Odo-9t-FZd"/>
+                <constraint firstAttribute="bottom" secondItem="Ptw-Do-Nhf" secondAttribute="bottom" id="Whr-j9-icZ"/>
+                <constraint firstItem="AU3-HU-UDC" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Y8R-uS-wDv"/>
+                <constraint firstItem="Ptw-Do-Nhf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="oNE-rO-pRH"/>
+                <constraint firstAttribute="trailing" secondItem="Ptw-Do-Nhf" secondAttribute="trailing" id="wTn-KE-JMu"/>
+                <constraint firstItem="AU3-HU-UDC" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="yEH-Ot-KAj"/>
+            </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="548" y="455"/>
         </view>
     </objects>
+    <resources>
+        <image name="Splash" width="1238" height="1857"/>
+    </resources>
 </document>
